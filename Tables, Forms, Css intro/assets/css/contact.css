@@ -1,0 +1,163 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.cv-modern-container {
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.header-left h1 {
+    font-size: 38px;
+    margin: 0;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.header-left .subtitle {
+    font-size: 14px;
+    margin: 5px 0 0 0;
+    font-weight: bold;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+.header-right {
+    text-align: right;
+    font-size: 12px;
+}
+
+.header-right .download-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #a30e0e; /* Qırmızı/Tünd qəhvəyi rəng */
+    padding: 3px 8px;
+    border-radius: 2px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.header-right .contact-info {
+    margin-top: 5px;
+    line-height: 1.4;
+}
+
+.header-right a {
+    color: #a30e0e;
+    text-decoration: none;
+}
+
+/* Section Styling */
+.section-block {
+    display: flex;
+    margin-bottom: 25px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 20%;
+    margin: 0;
+    padding-right: 20px;
+    color: #333;
+}
+
+.section-content, .skills-grid, .technical-grid, .experience-block > div:not(.section-title) {
+    width: 80%;
+}
+
+/* Profile */
+.section-content p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skills-grid h3 {
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.skills-grid p {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+/* Technical */
+.technical-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.technical-grid .col p {
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+/* Experience */
+.experience-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.experience-item h3 {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.experience-item .role {
+    font-size: 13px;
+    font-style: italic;
+    margin: 3px 0 5px 0;
+}
+
+.company-details {
+    width: 60%;
+}
+
+.years {
+    width: 40%;
+    text-align: right;
+    font-size: 13px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 0;
+}
+
+.description {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.description p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0;
+}
