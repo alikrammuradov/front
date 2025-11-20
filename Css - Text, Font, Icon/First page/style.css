@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;  
+}
+
+.service-card {
+    width: 360px;                  
+    text-align: center;
+    margin: 80px auto;            
+}
+
+
+.icon-box {
+    width: 140px;
+    height: 140px;
+    background-color: #b46b4d;    
+    border-radius: 0px 30px 0 30px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px auto;
+}
+
+
+.icon-box i {
+    font-size: 65px;        
+    color: #ffffff;       
+}
+
+
+.service-card h3 {
+    font-size: 29px;        
+    font-weight: 600;
+    color: #1b1b1b;
+    line-height: 1.25;
+    margin-bottom: 22px;
+}
+
+
+.service-card p {
+    width: 82%;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.65;
+    color: #555;
+}
