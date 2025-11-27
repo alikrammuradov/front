@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="./assets/js/css/style.css">
+</head>
+<body class="p-4">
+
+    <div class="container">
+
+        <div class="mb-4">
+            <label class="form-label fw-bold">1) CapsLock ilə yazmaq olmaz</label>
+            <input id="capsInput" class="form-control" type="text" placeholder="Yaz…">
+            <p id="capsWarn" class="text-danger mt-1 d-none">⚠ CapsLock açıqdır!</p>
+        </div>
+
+        <hr>
+
+        
+        <div class="mb-4">
+            <label class="form-label fw-bold">2) Rəqəm yazmaq olmaz</label>
+            <input id="noNumberInput" class="form-control" type="text" placeholder="Yaz…">
+            <p id="numberWarn" class="text-danger mt-1 d-none">⚠ Rəqəm yazmaq olmaz!</p>
+        </div>
+
+        <hr>
+
+        
+        <div class="mb-4">
+            <label class="form-label fw-bold">3) Email düzgün olmalıdır</label>
+            <input id="emailInput" class="form-control" type="text" placeholder="example@gmail.com">
+            <p id="emailWarn" class="text-danger mt-1 d-none">⚠ Email formatı yanlışdır!</p>
+        </div>
+
+        <hr>
+
+        
+        <div class="mb-4">
+            <label class="form-label fw-bold">4) 2 yaz — button-a bas — 2 dairə yaransın</label>
+            <div class="d-flex gap-2">
+                <input id="circleInput" type="number" class="form-control" placeholder="2 yaz">
+                <button id="createBtn" class="btn btn-primary">Dairə yarat</button>
+            </div>
+            <div id="circleArea" class="mt-3"></div>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
