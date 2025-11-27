@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: white;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.plus {
+    background: #007bff; 
+}
+
+.minus {
+    background: #dc3545; 
+}
+
+.multiply {
+    background: #28a745; 
+}
+
+.divide {
+    background: #ffc107;
+    color: black;
+}
+
+.result {
+    width: 300px;
+    margin-top: 20px;
+}
